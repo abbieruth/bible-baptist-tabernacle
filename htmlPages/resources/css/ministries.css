@@ -137,7 +137,9 @@ main h3 {
     padding-bottom: 2%;
 }
 
-/* Only stretches across half the page??? */
+section {
+    margin: 3%;
+}
 
 /*******************************************************
 /* ADDITIONAL STYLES

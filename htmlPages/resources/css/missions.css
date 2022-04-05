@@ -130,6 +130,15 @@ footer {
     margin-bottom: 3%;
 }
 
+p {
+    text-align: center;
+    margin: 1%;
+}
+
+.missionaries {
+    margin: 3%;
+}
+
 .missionary {
     margin: 5%;
 }
