@@ -17,6 +17,7 @@
     clear: both;
 }
 
+
 /*******************************************************
 /* BASE STYLES
 /******************************************************/
@@ -51,6 +52,10 @@ h6 {
 }
 
 p {
+    font-size: 1.5rem;
+}
+
+span {
     font-size: 1.5rem;
 }
 
@@ -118,6 +123,7 @@ footer {
     padding: 7%;
     color: whitesmoke;
     background-color: burlywood;
+    margin-bottom: 2%;
 }
 
 .banner h1 {
