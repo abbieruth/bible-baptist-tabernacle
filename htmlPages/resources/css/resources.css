@@ -17,11 +17,9 @@
     clear: both;
 }
 
-
 /*******************************************************
 /* BASE STYLES
 /******************************************************/
-
 html {
     display: flex;
     font-size: 10px;
@@ -52,10 +50,6 @@ h6 {
 }
 
 p {
-    font-size: 1.5rem;
-}
-
-span {
     font-size: 1.5rem;
 }
 
@@ -123,7 +117,6 @@ footer {
     padding: 7%;
     color: whitesmoke;
     background-color: burlywood;
-    margin-bottom: 2%;
 }
 
 .banner h1 {
