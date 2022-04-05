@@ -20,6 +20,7 @@
 /*******************************************************
 /* BASE STYLES
 /******************************************************/
+
 html {
     display: flex;
     font-size: 10px;
@@ -111,32 +112,4 @@ footer {
 /* LAYOUT
 /******************************************************/
 
-.banner {
-    width: 100%;
-    text-align: center;
-    padding: 7%;
-    color: whitesmoke;
-    background-color: burlywood;
-}
-
-.banner h1 {
-    margin-bottom: 3%;
-}
-
-#history, #pastor {
-    width: 60%;
-    background-color: burlywood;
-    padding: 3%;
-    margin: 3%;
-    display: flex;
-    flex-wrap: wrap;
-    float: left;
-}
-
-#history h3, #pastor h3 {
-    padding-bottom: 2%;
-}
-
-/*******************************************************
-/* ADDITIONAL STYLES
-/*******************************************************/
+/* Something's not working right. It doesn't cover the page. */
