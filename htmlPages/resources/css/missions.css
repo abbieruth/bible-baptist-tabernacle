@@ -54,6 +54,10 @@ p {
     font-size: 1.5rem;
 }
 
+span {
+    font-size: 1.5rem;
+}
+
 header nav {
     width: 100%;
     display: flex;
@@ -119,10 +123,15 @@ footer {
     padding: 7%;
     color: whitesmoke;
     background-color: burlywood;
+    margin-bottom: 2%;
 }
 
 .banner h1 {
     margin-bottom: 3%;
+}
+
+.missionary {
+    margin: 5%;
 }
 
 /*******************************************************
