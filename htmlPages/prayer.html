@@ -4,7 +4,8 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE-edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- <link rel="stylesheet" href="./resources/css/reset.css"> -->
+        <link rel="stylesheet" href="../resources/css/reset.css">
+        <!-- I like the sidenav without the reset file; look into that -->
         <link rel="stylesheet" href="../resources/css/prayer.css">
         <title>Prayer</title>
     </head>
@@ -25,21 +26,28 @@
             <h1>Prayer Board</h1>
         </section>
         <main>
-            <h2>Request Prayer</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Architecto distinctio ipsam rerum ratione, veniam id placeat 
-                aliquam doloribus soluta magni, cum, dolorum nemo temporibus 
-                delectus! Sapiente, nostrum! Rerum optio voluptas dolores aperiam, 
-                quod dolor, molestiae assumenda numquam possimus, reiciendis 
-                laborum tempore perspiciatis similique. Inventore corporis, 
-                accusantium debitis ex voluptas ab.</p>
-            <form action="">
-                <label for="request">Requests</label>
-                <input name="request" id="request" type="text">
-            </form>
 
-            <h2>Prayer Requests</h2>
-                <h3>Sickness</h3>
+            <section id="ask">
+                <h2>Request Prayer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Architecto distinctio ipsam rerum ratione, veniam id placeat 
+                    aliquam doloribus soluta magni, cum, dolorum nemo temporibus 
+                    delectus! Sapiente, nostrum! Rerum optio voluptas dolores aperiam, 
+                    quod dolor, molestiae assumenda numquam possimus, reiciendis 
+                    laborum tempore perspiciatis similique. Inventore corporis, 
+                    accusantium debitis ex voluptas ab.</p>
+                <form action="">
+                    <label for="request">Requests</label>
+                    <input name="request" id="request" type="text">
+                </form>
+            </section>
+
+            <section id="requests">
+
+                <h2>Prayer Requests</h2>
+
+                <section class="sickness">
+                    <h3>Sickness</h3>
                     <ul>
                         <li>Bro. Ernie - cancer</li>
                         <li>Miss June - stage 4 bladder cancer - in a lot of pain</li>
@@ -47,20 +55,31 @@
                         <li>Mrs. McGowen - kidney stones</li>
                         <li>Miss Cindy - unspoken</li>
                     </ul>
-                <h3>Other</h3>
+                </section>
+
+                <section class="other">
+                    <h3>Other</h3>
                     <ul>
                         <li>Shut-ins - Lillian, Connie, Marcy in nursing home</li>
                         <li>Seth and Chris - in Military</li>
                         <li>Naomi's friend, Ngyari, in Zimbabwe - praying about immigrating to the US</li>
                     </ul>
-                <h3>Salvation and Spiritual</h3>
+                </section>
+                
+                <section class="spiritual">
+                    <h3>Salvation and Spiritual</h3>
                     <ul>
                         <li>Evangelists - Don Williams, Joe Mark, Darrel Murphy, and Joe Decker</li>
                         <li>Our mayor and other elected officials</li>
                     </ul>
-            <h2>Answered Prayers</h2>
+                </section>
 
-            <h2><a href="letters.html">Prayer Letters</a></h2>
+            </section>
+
+            <section id="answered">
+                <h2>Answered Prayers</h2>
+                <h2><a href="letters.html">Prayer Letters</a></h2>
+            </section>
         </main>
 
         <section class="side">
