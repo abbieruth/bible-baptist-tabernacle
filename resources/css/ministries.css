@@ -128,9 +128,7 @@ main {
     background-color: burlywood;
     padding: 3%;
     margin: 3%;
-    display: flex;
-    flex-wrap: wrap;
-    float: left;
+    text-align: center;
 }
 
 main h3 {

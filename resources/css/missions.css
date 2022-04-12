@@ -130,6 +130,15 @@ footer {
     margin-bottom: 3%;
 }
 
+main {
+    width: 90%;
+    margin: 5%;
+}
+
+div {
+    margin: 5%;
+}
+
 p {
     text-align: center;
     margin: 1%;
@@ -137,10 +146,11 @@ p {
 
 .missionaries {
     margin: 3%;
+    text-align: center;
 }
 
 .missionary {
-    margin: 5%;
+    margin: 3%;
 }
 
 /*******************************************************

@@ -112,4 +112,21 @@ footer {
 /* LAYOUT
 /******************************************************/
 
-/* Something's not working right. It doesn't cover the page. */
+main {
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+main p {
+    margin-top: 2%;
+}
+
+#contactInfo {
+    width: 50%;
+    background-color: burlywood;
+    padding: 3%;
+    text-align: center;
+    margin: 2%;
+}

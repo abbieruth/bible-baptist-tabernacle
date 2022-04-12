@@ -71,6 +71,15 @@ main section {
     margin: 3% 1%;
 }
 
+p {
+    width: 90%;
+    margin: 3%;
+}
+
+form {
+    margin: 3%;
+}
+
 .sidenav, .times {
     width: 30%;
     padding: 3%;
