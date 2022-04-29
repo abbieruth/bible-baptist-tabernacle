@@ -20,7 +20,6 @@
 /*******************************************************
 /* BASE STYLES
 /******************************************************/
-
 html {
     display: flex;
     font-size: 10px;
@@ -50,11 +49,7 @@ h6 {
     font-size: 1.75rem;
 }
 
-p, a {
-    font-size: 1.5rem;
-}
-
-span {
+p, a, span {
     font-size: 1.5rem;
 }
 
@@ -112,7 +107,6 @@ footer {
     margin-top: 5%;
 }
 
-
 /******************************************************
 /* LAYOUT
 /******************************************************/
@@ -130,31 +124,36 @@ footer {
     margin-bottom: 3%;
 }
 
-main {
+/* main {
     width: 90%;
     margin: 5%;
-}
+} */
 
 div {
     margin: 5%;
 }
 
-p {
+main p {
+    width: 80%;
+    margin: 5%;
     text-align: center;
     margin: 1%;
 }
 
 .missionaries {
+    width: 60%;
+    padding: 3%;
     margin: 3%;
     text-align: center;
 }
 
 .missionary {
     margin: 3%;
+    text-align: center;
 }
 
 /*******************************************************
 /* ADDITIONAL STYLES
 /*******************************************************/
 
-/* Doesn't span full width */
+/* Not centered correctly */ 
