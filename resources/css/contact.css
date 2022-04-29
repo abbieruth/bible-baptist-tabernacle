@@ -71,7 +71,7 @@ nav a {
 .sidenav, .times {
     width: 30%;
     padding: 3%;
-    margin: 3%;
+    margin: 5% 10%;
     background: burlywood;
     float: left;
 }
@@ -112,21 +112,34 @@ footer {
 /* LAYOUT
 /******************************************************/
 
-main {
-    margin: 3%;
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
+.banner {
+    width: 100%;
+    text-align: center;
+    padding: 7%;
+    color: gray;
+    background: burlywood;
 }
 
-main p {
-    margin-top: 2%;
+.banner h2 {
+    margin-bottom: 3%;
+}
+
+.banner span {
+    width: 60%;
+    font-size: 2rem;
 }
 
 #contactInfo {
-    width: 50%;
+    width: 60%;
+    height: 20%;
     background-color: burlywood;
     padding: 3%;
-    text-align: center;
-    margin: 2%;
+    margin: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+}
+
+#contactInfo section {
+    padding: 1%;
 }
