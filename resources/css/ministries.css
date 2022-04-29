@@ -68,7 +68,7 @@ nav a {
 }
 
 .sidenav, .times {
-    width: 30%;
+    width: 40%;
     padding: 3%;
     margin: 3%;
     background: burlywood;
@@ -123,19 +123,21 @@ footer {
     margin-bottom: 3%;
 }
 
-main {
+#ministries {
     width: 60%;
     background-color: burlywood;
     padding: 3%;
     margin: 3%;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
 }
 
-main h3 {
+#ministries h3 {
     padding-bottom: 2%;
 }
 
-section {
+#ministries section {
     margin: 3%;
 }
 
